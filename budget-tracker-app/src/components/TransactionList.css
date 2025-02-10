@@ -1,0 +1,35 @@
+.transaction-list-container {
+    color: green;
+}
+
+.transaction-list-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-list-item-income {
+    color: green;
+}
+
+.transaction-list-item-expense {
+    color: red;
+}
+
+.transaction-list-delete-button {
+  background-color: #f00;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
